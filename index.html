@@ -20,7 +20,14 @@
     </div>
     <div style="margin-top: 10px;">
     <label>Phone No</label>
-    <input type="tel" maxlength="10" />
+    <input type="tel" maxlength="10" pattern="^/d{10}$" >
+    <style>  
+    input :invalid{
+        border-color: brown;
+
+    }
+    
+    </style>
     </div>
     <div style="margin-top: 10px;">
     <label>Gender</label>
@@ -38,7 +45,7 @@
     <input type="file"/>
     </div>
     <div style="margin-top: 10px;">
-    <button>Signup</label> </button> 
+    <input type ="submit" /> Signup
     </div>
     </form>
 </body>
