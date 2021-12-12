@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Signup Form </h2>
+    </h3><strong>Note: </strong> This form needs to be filled completely for signup </h3>
+    <form>
+    <div style="margin-top: 10px;">
+    <label>Name</label>
+    <input  type ="text" />
+    <div>
+    <div style="margin-top: 10px;">
+    <label>Email</label>
+    <input  type="email" />
+    </div>
+    <div style="margin-top: 10px;">
+    <label>Phone No</label>
+    <input type="tel" maxlength="10" pattern="^/d{10}$" >
+    <style>  
+    input :invalid{
+        border-color: brown;
+
+    }
+    
+    </style>
+    </div>
+    <div style="margin-top: 10px;">
+    <label>Gender</label>
+    <input for= "Gender" type="radio" name = "gender" value="Male" >
+    <label>Male</label> 
+    <input for= "Gender" type="radio" name = "gender" Value="Female" />
+    <label>Female</label>
+    </div>
+    <div style="margin-top: 10px;">
+    <label>Date Of Birth</label>
+    <input type="date"/>
+    </div>
+    <div style="margin-top: 10px;">
+    <label>Upload Address Proof</label>
+    <input type="file"/>
+    </div>
+    <div style="margin-top: 10px;">
+    <input type ="submit" /> Signup
+    </div>
+    </form>
+</body>
+</html>
