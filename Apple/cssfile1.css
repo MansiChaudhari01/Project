@@ -1,14 +1,6 @@
-h1{ height: 40px;
+h1{ height: 30px;
    
-   font-size: larger; text-align: left;background-color: black;
+   font-size: x-small; text-align: left;background-color: black; color: white;
    
 }
-page[size="A4"]{
-    background: white;
-    width: 21cm;
-    height: 29.4cm;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 0.5cm;
-    box-shadow: 0 0 0 0.5cm ;rgba(0,0,0,0.5);
-}
+
